@@ -1,6 +1,23 @@
-.python-version
-.venv
-.vscode
-.ipynb_checkpoints
+## To ignore all compiled files with no extensions
+#1. Ignore all
+*
+
+#2. Unignore all with extensions
+!*.*
+
+#3. Unignore all dirs
+!*/
+
+
+
+## custom ingore
+# ignore with specific extension
+*.python-version
+*.venv
+*.vscode
+*.ipynb_checkpoints
+*.DS_Store
+*.dSYM
+
+# ignore specific folder
 offered_files
-.DS_Store
